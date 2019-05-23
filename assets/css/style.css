@@ -27,14 +27,15 @@ background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
   }
-
+  
+/* add bottom border to h1 */
 h1 {
     border-bottom-style: solid;
       border-width: 1px;
       border-color: rgb(189, 188, 188);
 }   
 
-
+/* get rid of bullet points */
 ul{
     list-style-type: none;
        
