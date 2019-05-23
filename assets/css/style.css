@@ -1,0 +1,84 @@
+
+.name {
+    float: left;
+    backgound: rgb(21, 148, 148);
+
+}
+
+.navbar {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-color: pink;
+    border-bottom-style: solid;
+      border-width: .5px;
+      border-color: rgb(189, 188, 188);
+    padding-top: 10px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 
+}
+
+/* add background image */
+body {
+        background-image: url('../images/papyrus-dark.png');
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+  }
+
+h1 {
+    border-bottom-style: solid;
+      border-width: 1px;
+      border-color: rgb(189, 188, 188);
+}   
+
+
+ul{
+    list-style-type: none;
+       
+}
+
+li {
+  float:left;
+  }
+
+  #wrapper {
+      clear: both;
+      width: 960px;
+      margin: auto;
+      background: white;
+      border-style: solid;
+      border-width: .1px;
+      border-color: rgb(189, 188, 188); 
+      padding: 15px;
+  }
+/* float image so that text wraps it. also make it responsive to page size changes */
+  img {
+      float:left;
+      max-width: 100%;
+      height: auto;
+      margin-right: 1%;
+      margin-bottom: 1%;
+
+
+  }
+/* attempting to make it the right height, and push the text to the bottom */
+  footer {
+    clear: both;
+      text-align: center;
+      height: 50px;
+      width: 100%;
+      background: rgb(93, 100, 100);
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 0px;
+      margin-top: 20px;
+      border-top-style: solid;
+      border-width: 5px;
+      border-color: rgb(21, 148, 148);
+
+  }
+  
+  
