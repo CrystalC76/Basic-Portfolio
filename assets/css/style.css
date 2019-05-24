@@ -12,8 +12,9 @@ header{
     
 }
 .name {
-    margin-left: 250px;
+    margin-left: 264px;
     font-size: 120%;
+    font-weight: bold;
     padding: 20px;
     color: white; 
     float: left;
